@@ -12,7 +12,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
                 .allowedOrigins(
-                    "https://api-students-front.onrender.com",
+                    "https://thiagoa001.github.io/api-students-front/",
                     "http://127.0.0.1:5500",
                     "http://localhost:5500"
                 )
